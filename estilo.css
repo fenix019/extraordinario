@@ -59,3 +59,14 @@ form {
     color: #0ff;
     text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
 }
+
+.invalid-feedback {
+    display: none;
+    color: #ff4d4d;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.is-invalid + .invalid-feedback {
+    display: block;
+}
