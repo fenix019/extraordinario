@@ -1,0 +1,61 @@
+body {
+    background-color: #141414;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 2em;
+}
+
+form {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.neon-text {
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+.neon-box {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.neon-input {
+    background-color: #1c1c1c;
+    border: none;
+    border-bottom: 2px solid #0ff;
+    color: #0ff;
+    outline: none;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+.neon-input:focus {
+    background-color: #141414;
+}
+
+.neon-button {
+    background-color: #0ff;
+    border: none;
+    color: #141414;
+    font-weight: bold;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.neon-button:hover {
+    background-color: #00b3b3;
+}
+
+#resultado {
+    font-weight: bold;
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+}
