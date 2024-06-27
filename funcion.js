@@ -6,7 +6,6 @@ document.getElementById('promedioForm').addEventListener('submit', function(even
     const nota1 = parseFloat(nota1Input.value);
     const nota2 = parseFloat(nota2Input.value);
 
-    // Real-time validation
     const inputs = [nota1Input, nota2Input];
     inputs.forEach(input => {
         if (!input.validity.valid) {
